@@ -1,3 +1,4 @@
+REGISTER_HOST: aliyun
 server:
   port: ${SERVER_PORT:8010}
 spring:
@@ -10,3 +11,4 @@ spring:
       config:
         server-addr: ${REGISTER_HOST:localhost}:${REGISTER_PORT:8848}
         file-extension: yml
+        namespace: a22adcae-5df7-4c5c-9531-f663e50e05c1

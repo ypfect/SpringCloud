@@ -1,3 +1,5 @@
+REGISTER_HOST: aliyun
+SENTINEL_DASHBOARD_HOST: aliyun
 server:
   port: 8000
 spring:
@@ -10,6 +12,7 @@ spring:
       config:
         server-addr: ${REGISTER_HOST:localhost}:${REGISTER_PORT:8848}
         file-extension: yml
+        namespace: a22adcae-5df7-4c5c-9531-f663e50e05c1
     sentinel:
       transport:
         dashboard: ${SENTINEL_DASHBOARD_HOST:localhost}:${SENTINEL_DASHBOARD_PORT:8021}
