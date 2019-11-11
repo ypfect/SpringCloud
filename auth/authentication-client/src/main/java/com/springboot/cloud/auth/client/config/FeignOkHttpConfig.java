@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class FeignOkHttpConfig {
 
-	private int feignOkHttpReadTimeout = 60;
+	private int feignOkHttpReadTimeout = 160;
 	private int feignConnectTimeout = 60;
 	private int feignWriteTimeout = 120;
 
